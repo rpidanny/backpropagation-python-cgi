@@ -15,7 +15,7 @@ process();
 function process(){
 var un=$('#un').val();
 
-if(un=="danny" || un=="jyotika" || un=="keckist" ){
+if(un=="danny" || un=="abhishek" ){
 var speed = 500;
 $('#form').slideUp(speed); 
 $('#mainpage').slideDown(speed);
