@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DannyTech</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- loading image-->
+<div id="loading"><img src="/ai/images/ajax_loader_gray_350.gif" id ="loading1" width="70px"></div>
+
+
+<!-- login Form-->
+<div id="form" style="display:none">
+		
+		<div id="keclogo"><img src="/ai/images/keclogo.png" id="keclogoimg"><br><br></div>
+		<div id="enterpassword>"<p>Enter The Password:</p><input type="password" id="un" width="70px"></div>
+	    <input type="button" id="login" value="login" class="btn">
+</div>
+
+<!-- Main body-->
+<div id="mainpage" style="display:none">
+<h2 class="nnettitle">3 Input X-OR</h2>
+<form enctype="multipart/form-data" action="/ai/result.py" method="post" id="form1">
+<p>
+<b>Input 1: </b><input type="text" name="ip1" value="0"> <br />
+<b>Input 2: </b><input type="text" name="ip2" value="0"/> <br />
+<b>Input 3: </b><input type="text" name="ip3" value="0"/> <br />
+<input type="submit" value="Submit" id="submitbuttoon" class="btn"/>
+</p>
+</form>
+<p >
+<a href="/ai/upload.html">Upload Training Data.</a>
+</p>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
